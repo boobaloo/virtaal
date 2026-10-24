@@ -3,91 +3,50 @@ msgstr ""
 "Project-Id-Version: gettext-tools 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-10 13:25+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2026-10-24 20:22-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.19.18\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 3.10\n"
 
-#: src/format-awk.c:518
-#: src/format-boost.c:630
-#: src/format-c++-brace.c:943
-#: src/format-elisp.c:358
-#: src/format-gcc-internal.c:783
-#: src/format-go.c:583
-#: src/format-java-printf.c:559
-#: src/format-javascript.c:380
-#: src/format-kde.c:215
-#: src/format-librep.c:322
-#: src/format-lua.c:226
-#: src/format-modula2.c:197
-#: src/format-ocaml.c:901
-#: src/format-pascal.c:379
-#: src/format-perl.c:587
-#: src/format-php.c:360
-#: src/format-qt.c:171
-#: src/format-rust.c:495
-#: src/format-sh-printf.c:471
-#: src/format-smalltalk.c:146
-#: src/format-tcl.c:397
+#: src/format-awk.c:518 src/format-boost.c:630 src/format-c++-brace.c:943
+#: src/format-elisp.c:358 src/format-gcc-internal.c:783 src/format-go.c:583
+#: src/format-java-printf.c:559 src/format-javascript.c:380 src/format-kde.c:215
+#: src/format-librep.c:322 src/format-lua.c:226 src/format-modula2.c:197
+#: src/format-ocaml.c:901 src/format-pascal.c:379 src/format-perl.c:587
+#: src/format-php.c:360 src/format-qt.c:171 src/format-rust.c:495
+#: src/format-sh-printf.c:471 src/format-smalltalk.c:146 src/format-tcl.c:397
 #, c-format
 msgid ""
 "a format specification for argument %zu, as in '%s', doesn't exist in '%s'"
 msgstr "спецификация формата аргумента %zu, как в «%s», не существует в «%s»"
 
-#: src/format-awk.c:530
-#: src/format-boost.c:642
-#: src/format-c++-brace.c:955
-#: src/format-elisp.c:370
-#: src/format-gcc-internal.c:795
-#: src/format-go.c:595
-#: src/format-java-printf.c:571
-#: src/format-javascript.c:392
-#: src/format-kde.c:227
-#: src/format-librep.c:334
-#: src/format-lua.c:234
-#: src/format-modula2.c:205
-#: src/format-ocaml.c:913
-#: src/format-pascal.c:391
-#: src/format-perl.c:599
-#: src/format-php.c:372
-#: src/format-qt.c:167
-#: src/format-rust.c:507
-#: src/format-sh-printf.c:483
-#: src/format-smalltalk.c:142
-#: src/format-tcl.c:409
+#: src/format-awk.c:530 src/format-boost.c:642 src/format-c++-brace.c:955
+#: src/format-elisp.c:370 src/format-gcc-internal.c:795 src/format-go.c:595
+#: src/format-java-printf.c:571 src/format-javascript.c:392 src/format-kde.c:227
+#: src/format-librep.c:334 src/format-lua.c:234 src/format-modula2.c:205
+#: src/format-ocaml.c:913 src/format-pascal.c:391 src/format-perl.c:599
+#: src/format-php.c:372 src/format-qt.c:167 src/format-rust.c:507
+#: src/format-sh-printf.c:483 src/format-smalltalk.c:142 src/format-tcl.c:409
 #, c-format
 msgid "a format specification for argument %zu doesn't exist in '%s'"
 msgstr "спецификация формата аргумента %zu не существует в «%s»"
 
-#: src/format-awk.c:554
-#: src/format-boost.c:666
-#: src/format-c.c:148
-#: src/format-elisp.c:394
-#: src/format-gcc-internal.c:819
-#: src/format-gfc-internal.c:353
-#: src/format-go.c:619
-#: src/format-java-printf.c:595
-#: src/format-javascript.c:419
-#: src/format-librep.c:358
-#: src/format-lua.c:248
-#: src/format-modula2.c:219
-#: src/format-ocaml.c:946
-#: src/format-pascal.c:415
-#: src/format-perl.c:623
-#: src/format-php.c:396
-#: src/format-python.c:547
-#: src/format-ruby.c:965
-#: src/format-sh-printf.c:507
-#: src/format-tcl.c:433
+#: src/format-awk.c:554 src/format-boost.c:666 src/format-c.c:148
+#: src/format-elisp.c:394 src/format-gcc-internal.c:819
+#: src/format-gfc-internal.c:353 src/format-go.c:619
+#: src/format-java-printf.c:595 src/format-javascript.c:419
+#: src/format-librep.c:358 src/format-lua.c:248 src/format-modula2.c:219
+#: src/format-ocaml.c:946 src/format-pascal.c:415 src/format-perl.c:623
+#: src/format-php.c:396 src/format-python.c:547 src/format-ruby.c:965
+#: src/format-sh-printf.c:507 src/format-tcl.c:433
 #, c-format
-msgid ""
-"format specifications in '%s' and '%s' for argument %zu are not the same"
+msgid "format specifications in '%s' and '%s' for argument %zu are not the same"
 msgstr "спецификации формата в «%s» и «%s» не совпадают для аргумента %zu"
 
 #: src/format-boost.c:452
@@ -99,16 +58,14 @@ msgstr "Директива номер %zu начинается с |, но не �
 #, c-format
 msgid "'%s' is not a valid %s format string, unlike '%s'. Reason: %s"
 msgstr ""
-"Строка «%s» не подходит под формат %s, в отличие от исходной «%s». Причина: "
-"%s"
+"Строка «%s» не подходит под формат %s, в отличие от исходной «%s». Причина: %s"
 
 #: src/format-c++-brace.c:252
 #, c-format
 msgid "In the directive number %zu, the arg-id is too large."
 msgstr "В директиве номер %zu указан слишком большой arg-id."
 
-#: src/format-c++-brace.c:368
-#: src/format-c++-brace.c:463
+#: src/format-c++-brace.c:368 src/format-c++-brace.c:463
 #, c-format
 msgid "In the directive number %zu, the width's arg-id is too large."
 msgstr "В директиве номер %zu слишком большая ширина arg-id."
@@ -116,15 +73,14 @@ msgstr "В директиве номер %zu слишком большая ши�
 #: src/format-c++-brace.c:423
 #, c-format
 msgid ""
-"In the directive number %zu, the width's arg-id is not terminated through '}"
-"'."
+"In the directive number %zu, the width's arg-id is not terminated through '}'."
 msgstr "В директиве номер %zu ширина arg-id не заканчивается «}»."
 
 #: src/format-c++-brace.c:518
 #, c-format
 msgid ""
-"In the directive number %zu, the precision's arg-id is not terminated "
-"through '}'."
+"In the directive number %zu, the precision's arg-id is not terminated through "
+"'}'."
 msgstr "В директиве номер %zu точность arg-id не заканчивается «}»."
 
 #: src/format-c++-brace.c:580
@@ -133,14 +89,13 @@ msgid ""
 "In the directive number %zu, the character '%c' is not a standard type "
 "specifier."
 msgstr ""
-"В директиве номер %zu символ «%c» не является стандартным спецификатором "
-"типа."
+"В директиве номер %zu символ «%c» не является стандартным спецификатором типа."
 
 #: src/format-c++-brace.c:581
 #, c-format
 msgid ""
-"The character that terminates the directive number %zu is not a standard "
-"type specifier."
+"The character that terminates the directive number %zu is not a standard type "
+"specifier."
 msgstr ""
 "Символ, завершающий директиву номер %zu, не является стандартным "
 "спецификатором типа."
@@ -173,8 +128,8 @@ msgstr ""
 #: src/format-c++-brace.c:613
 #, c-format
 msgid ""
-"In the directive number %zu, the precision specification is incompatible "
-"with the type specifier '%c'."
+"In the directive number %zu, the precision specification is incompatible with "
+"the type specifier '%c'."
 msgstr ""
 "В директиве номер %zu спецификатор точности несовместим со спецификатором "
 "типа «%c»."
@@ -204,17 +159,14 @@ msgstr "Строка обрывается посреди директивы но
 msgid "The directive number %zu is not terminated through '}'."
 msgstr "Директива номер %zu не заканчивается на «}»."
 
-#: src/format-c++-brace.c:764
-#: src/format-csharp.c:155
-#: src/format-java.c:344
+#: src/format-c++-brace.c:764 src/format-csharp.c:155 src/format-java.c:344
 msgid ""
-"The string starts in the middle of a directive: found '}' without matching '"
-"{'."
+"The string starts in the middle of a directive: found '}' without matching "
+"'{'."
 msgstr ""
 "Строка начинается посреди директивы: найдена «}» без соответствующей «{»."
 
-#: src/format-c++-brace.c:765
-#: src/format-csharp.c:156
+#: src/format-c++-brace.c:765 src/format-csharp.c:156
 #, c-format
 msgid "The string contains a lone '}' after directive number %zu."
 msgstr "После директивы номер %zu строка содержит непарную «}»."
@@ -249,8 +201,7 @@ msgstr ""
 
 #: src/format-c.c:38
 #, c-format
-msgid ""
-"In the directive number %zu, the token after '<' is not followed by '>'."
+msgid "In the directive number %zu, the token after '<' is not followed by '>'."
 msgstr ""
 "В директиве номер %zu после лексемы, стоящей за «<», нет закрывающего «>»."
 
@@ -260,26 +211,20 @@ msgid "In the directive number %zu, the argument size specifier is invalid."
 msgstr ""
 "В директиве номер %zu указан некорректный аргумент спецификации размера."
 
-#: src/format-c.c:44
-#: src/format-gfc-internal.c:274
+#: src/format-c.c:44 src/format-gfc-internal.c:274
 #, c-format
 msgid ""
 "The string refers to argument number %zu but ignores argument number %zu."
 msgstr ""
 "Строка ссылается на аргумент номер %zu, но игнорирует аргумент номер %zu."
 
-#: src/format-c.c:138
-#: src/format-csharp.c:201
-#: src/format-gfc-internal.c:343
-#: src/format-python.c:534
-#: src/format-qt-plural.c:109
-#: src/format-ruby.c:955
+#: src/format-c.c:138 src/format-csharp.c:201 src/format-gfc-internal.c:343
+#: src/format-python.c:534 src/format-qt-plural.c:109 src/format-ruby.c:955
 #, c-format
 msgid "number of format specifications in '%s' and '%s' does not match"
 msgstr "не совпадает количество спецификаций формата в «%s» и «%s»"
 
-#: src/format-csharp.c:82
-#: src/format-java.c:203
+#: src/format-csharp.c:82 src/format-java.c:203
 #, c-format
 msgid "In the directive number %zu, '{' is not followed by an argument number."
 msgstr "В директиве номер %zu после «{» не задан номер аргумента."
@@ -289,8 +234,7 @@ msgstr "В директиве номер %zu после «{» не задан н
 msgid "In the directive number %zu, ',' is not followed by a number."
 msgstr "В директиве номер %zu после «,» не задано число."
 
-#: src/format-csharp.c:124
-#: src/format-java.c:185
+#: src/format-csharp.c:124 src/format-java.c:185
 msgid ""
 "The string ends in the middle of a directive: found '{' without matching '}'."
 msgstr ""
@@ -313,8 +257,7 @@ msgid ""
 "In the directive number %zu, the first argument number is greater than the "
 "second argument number."
 msgstr ""
-"В директиве номер %zu номер первого аргумента больше номера второго "
-"аргумента."
+"В директиве номер %zu номер первого аргумента больше номера второго аргумента."
 
 #: src/format-d.c:1654
 #, c-format
@@ -348,34 +291,26 @@ msgstr ""
 "У директивы номер %zu в разделительной части составного спецификатора есть "
 "некорректная директива."
 
-#: src/format-d.c:1669
-#: src/format-ocaml.c:768
+#: src/format-d.c:1669 src/format-ocaml.c:768
 #, c-format
 msgid "Found '%%%c' without matching '%%%c'."
 msgstr "Найдено «%%%c» без соответствующего «%%%c»."
 
 #: src/format-d.c:1672
 #, c-format
-msgid ""
-"The directive number %zu references an argument after the last argument."
+msgid "The directive number %zu references an argument after the last argument."
 msgstr "Директива номер %zu ссылается на аргумент после последнего аргумента."
 
-#: src/format-d.c:1676
-#: src/format-lisp.c:3419
-#: src/format-scheme.c:3341
+#: src/format-d.c:1676 src/format-lisp.c:3419 src/format-scheme.c:3341
 msgid "The string refers to some argument in incompatible ways."
 msgstr "Строка ссылается на какой-то аргумент несовместимым образом."
 
-#: src/format-d.c:2246
-#: src/format-lisp.c:3462
-#: src/format-scheme.c:3384
+#: src/format-d.c:2246 src/format-lisp.c:3462 src/format-scheme.c:3384
 #, c-format
 msgid "format specifications in '%s' and '%s' are not equivalent"
 msgstr "спецификации формата в «%s» и «%s» не эквивалентны"
 
-#: src/format-d.c:2263
-#: src/format-lisp.c:3479
-#: src/format-scheme.c:3401
+#: src/format-d.c:2263 src/format-lisp.c:3479 src/format-scheme.c:3401
 #, c-format
 msgid "format specifications in '%s' are not a subset of those in '%s'"
 msgstr ""
@@ -389,8 +324,7 @@ msgid ""
 msgstr ""
 "Директива номер %zu открывает цитатную группу, но ещё не закрыта предыдущая."
 
-#: src/format-gcc-internal.c:238
-#: src/format-gcc-internal.c:248
+#: src/format-gcc-internal.c:238 src/format-gcc-internal.c:248
 #: src/format-gcc-internal.c:258
 #, c-format
 msgid "The directive number %zu does not match a preceding '%%%c'."
@@ -467,20 +401,17 @@ msgstr "В «%s» используется %%m, но в «%s» нет"
 msgid "'%s' does not use %%m but '%s' uses %%m"
 msgstr "В «%s» не используется %%m, но в «%s» используется %%m"
 
-#: src/format-gcc-internal.c:857
-#: src/format-gfc-internal.c:365
+#: src/format-gcc-internal.c:857 src/format-gfc-internal.c:365
 #, c-format
 msgid "'%s' uses %%C but '%s' doesn't"
 msgstr "В «%s» используется %%C, но в «%s» нет"
 
-#: src/format-gcc-internal.c:861
-#: src/format-gfc-internal.c:369
+#: src/format-gcc-internal.c:861 src/format-gfc-internal.c:369
 #, c-format
 msgid "'%s' does not use %%C but '%s' uses %%C"
 msgstr "В «%s» не используется %%C, но в «%s» используется %%C"
 
-#: src/format-go.c:115
-#: src/format-rust.c:172
+#: src/format-go.c:115 src/format-rust.c:172
 #, c-format
 msgid "In the directive number %zu, the argument number is too large."
 msgstr "В директиве номер %zu указан слишком большой номер аргумента."
@@ -559,8 +490,7 @@ msgstr ""
 #: src/format-invalid.h:44
 #, c-format
 msgid ""
-"In the directive number %zu, the flag '%c' is invalid for the conversion "
-"'%c'."
+"In the directive number %zu, the flag '%c' is invalid for the conversion '%c'."
 msgstr ""
 "В директиве номер %zu флаг «%c» не является верным для преобразования «%c»."
 
@@ -577,9 +507,7 @@ msgid ""
 msgstr ""
 "В директиве номер %zu подстрока «%s» не является верным стилем даты/времени."
 
-#: src/format-java.c:249
-#: src/format-java.c:283
-#: src/format-java.c:312
+#: src/format-java.c:249 src/format-java.c:283 src/format-java.c:312
 #, c-format
 msgid "In the directive number %zu, \"%s\" is not followed by a comma."
 msgstr "В директиве номер %zu после «%s» не стоит запятая."
@@ -587,8 +515,7 @@ msgstr "В директиве номер %zu после «%s» не стоит �
 #: src/format-java.c:272
 #, c-format
 msgid ""
-"In the directive number %zu, the substring \"%s\" is not a valid number "
-"style."
+"In the directive number %zu, the substring \"%s\" is not a valid number style."
 msgstr "В директиве номер %zu подстрока «%s» не является верным стилем числа."
 
 #: src/format-java.c:321
@@ -597,8 +524,8 @@ msgid ""
 "In the directive number %zu, the argument number is not followed by a comma "
 "and one of \"%s\", \"%s\", \"%s\", \"%s\"."
 msgstr ""
-"В директиве номер %zu после номера аргумента не стоит запятая и одно из «%s"
-"», «%s», «%s», «%s»."
+"В директиве номер %zu после номера аргумента не стоит запятая и одно из «%s», "
+"«%s», «%s», «%s»."
 
 #: src/format-java.c:566
 #, c-format
@@ -641,8 +568,7 @@ msgstr ""
 
 #: src/format-java-printf.c:134
 #, c-format
-msgid ""
-"In the directive number %zu, a width is invalid for the conversion '%c'."
+msgid "In the directive number %zu, a width is invalid for the conversion '%c'."
 msgstr ""
 "В директиве номер %zu указана некорректная ширина для преобразования «%c»."
 
@@ -659,8 +585,8 @@ msgid ""
 "In the directive number %zu, for the conversion '%c', the character '%c' is "
 "not a valid conversion suffix."
 msgstr ""
-"В директиве номер %zu для преобразования «%c» указан некорректный символ «%c"
-"» суффикса преобразования."
+"В директиве номер %zu для преобразования «%c» указан некорректный символ «%c» "
+"суффикса преобразования."
 
 #: src/format-java-printf.c:142
 #, c-format
@@ -679,8 +605,7 @@ msgid ""
 msgstr ""
 "Строка ссылается на аргумент номер %zu, но игнорирует аргументы %zu и %zu."
 
-#: src/format-kde.c:236
-#: src/format-rust.c:516
+#: src/format-kde.c:236 src/format-rust.c:516
 #, c-format
 msgid ""
 "a format specification for arguments %zu and %zu doesn't exist in '%s', only "
@@ -689,27 +614,22 @@ msgstr ""
 "спецификация формата аргументов %zu и %zu не существует в «%s», только один "
 "аргумент может быть игнорирован"
 
-#: src/format-kde-kuit.c:251
-#: src/format-kde-kuit.c:272
-#: src/format-kde-kuit.c:282
+#: src/format-kde-kuit.c:251 src/format-kde-kuit.c:272 src/format-kde-kuit.c:282
 #, c-format
 msgid "error while parsing: %s"
 msgstr "ошибка при разборе: %s"
 
-#: src/format-lisp.c:2335
-#: src/format-lisp.c:2347
-#: src/format-scheme.c:2361
+#: src/format-lisp.c:2335 src/format-lisp.c:2347 src/format-scheme.c:2361
 #: src/format-scheme.c:2373
 #, c-format
 msgid ""
-"In the directive number %zu, parameter %zu is of type '%s' but a parameter "
-"of type '%s' is expected."
+"In the directive number %zu, parameter %zu is of type '%s' but a parameter of "
+"type '%s' is expected."
 msgstr ""
 "В директиве номер %zu параметр %zu принадлежит типу «%s», но ожидается "
 "параметр типа «%s»."
 
-#: src/format-lisp.c:2370
-#: src/format-scheme.c:2396
+#: src/format-lisp.c:2370 src/format-scheme.c:2396
 #, c-format
 msgid ""
 "In the directive number %zu, too many parameters are given; expected at most "
@@ -719,22 +639,20 @@ msgid_plural ""
 "%zu parameters."
 msgstr[0] ""
 "В директиве номер %zu указано слишком много параметров; ожидалось не более "
-"%zu параметра"
+"%zu параметра."
 msgstr[1] ""
 "В директиве номер %zu указано слишком много параметров; ожидалось не более "
-"%zu параметров"
+"%zu параметров."
 msgstr[2] ""
 "В директиве номер %zu указано слишком много параметров; ожидалось не более "
-"%zu параметров"
+"%zu параметров."
 
-#: src/format-lisp.c:2492
-#: src/format-scheme.c:2494
+#: src/format-lisp.c:2492 src/format-scheme.c:2494
 #, c-format
 msgid "In the directive number %zu, '%c' is not followed by a digit."
 msgstr "В директиве номер %zu после «%c» не стоит цифра."
 
-#: src/format-lisp.c:2734
-#: src/format-scheme.c:2751
+#: src/format-lisp.c:2734 src/format-scheme.c:2751
 #, c-format
 msgid "In the directive number %zu, the argument %d is negative."
 msgstr "В директиве номер %zu аргумент %d отрицателен."
@@ -743,27 +661,19 @@ msgstr "В директиве номер %zu аргумент %d отрицат�
 msgid "The string ends in the middle of a ~/.../ directive."
 msgstr "Строка обрывается посреди директивы ~/.../."
 
-#: src/format-lisp.c:2841
-#: src/format-lisp.c:3097
-#: src/format-lisp.c:3214
-#: src/format-lisp.c:3274
-#: src/format-lisp.c:3386
-#: src/format-scheme.c:2837
-#: src/format-scheme.c:3093
-#: src/format-scheme.c:3210
-#: src/format-scheme.c:3308
+#: src/format-lisp.c:2841 src/format-lisp.c:3097 src/format-lisp.c:3214
+#: src/format-lisp.c:3274 src/format-lisp.c:3386 src/format-scheme.c:2837
+#: src/format-scheme.c:3093 src/format-scheme.c:3210 src/format-scheme.c:3308
 #, c-format
 msgid "Found '~%c' without matching '~%c'."
 msgstr "Встречено «~%c» без соответствующего «~%c»."
 
-#: src/format-lisp.c:2861
-#: src/format-scheme.c:2857
+#: src/format-lisp.c:2861 src/format-scheme.c:2857
 #, c-format
 msgid "In the directive number %zu, both the @ and the : modifiers are given."
 msgstr "В директиве номер %zu одновременно заданы модификаторы @ и :."
 
-#: src/format-lisp.c:2970
-#: src/format-scheme.c:2966
+#: src/format-lisp.c:2970 src/format-scheme.c:2966
 #, c-format
 msgid ""
 "In the directive number %zu, '~:[' is not followed by two clauses, separated "
@@ -771,23 +681,18 @@ msgid ""
 msgstr ""
 "В директиве номер %zu после «~:[» не стоят два предложения, разделенные «~;»."
 
-#: src/format-lisp.c:3315
-#: src/format-scheme.c:3251
+#: src/format-lisp.c:3315 src/format-scheme.c:3251
 #, c-format
 msgid "In the directive number %zu, '~;' is used in an invalid position."
 msgstr "В директиве номер %zu «~;» использована в неверном месте."
 
-#: src/format-ocaml.c:562
-#: src/format-ocaml.c:661
+#: src/format-ocaml.c:562 src/format-ocaml.c:661
 #, c-format
 msgid "Found '%s' without matching '%s'."
-msgstr ""
+msgstr "Найден «%s», но не найдено соответствующее «%s»."
 
-#: src/format-perl-brace.c:194
-#: src/format-python-brace.c:555
-#: src/format-python.c:486
-#: src/format-ruby.c:910
-#: src/format-rust.c:461
+#: src/format-perl-brace.c:194 src/format-python-brace.c:555
+#: src/format-python.c:486 src/format-ruby.c:910 src/format-rust.c:461
 #: src/format-sh.c:295
 #, c-format
 msgid "a format specification for argument '%s' doesn't exist in '%s'"
@@ -843,8 +748,8 @@ msgstr "В директиве номер %zu с «%c» не может начи�
 #: src/format-python-brace.c:253
 #, c-format
 msgid ""
-"In the directive number %zu, a field name starts with a character that is "
-"not alphanumerical or underscore."
+"In the directive number %zu, a field name starts with a character that is not "
+"alphanumerical or underscore."
 msgstr ""
 "В директиве номер %zu имя поля начинается не с буквы, цифры или символа "
 "подчёркивания."
@@ -852,22 +757,18 @@ msgstr ""
 #: src/format-python-brace.c:266
 #, c-format
 msgid ""
-"In the directive number %zu, no more nesting is allowed in a format "
-"specifier."
+"In the directive number %zu, no more nesting is allowed in a format specifier."
 msgstr ""
 "В директиве номер %zu в спецификаторе формата невозможно указать большую "
 "вложенность."
 
-#: src/format-python-brace.c:302
-#: src/format-python-brace.c:355
-#: src/format-rust.c:261
-#: src/format-rust.c:318
+#: src/format-python-brace.c:302 src/format-python-brace.c:355
+#: src/format-rust.c:261 src/format-rust.c:318
 #, c-format
 msgid "The directive number %zu is unterminated."
 msgstr "Директива номер %zu не закрыта."
 
-#: src/format-python-brace.c:372
-#: src/format-python-brace.c:389
+#: src/format-python-brace.c:372 src/format-python-brace.c:389
 msgid ""
 "The string refers to arguments both through absolute argument numbers and "
 "through unnamed argument specifications."
@@ -875,18 +776,14 @@ msgstr ""
 "Строка ссылается на аргументы как по абсолютным номерам, так и через "
 "безымянные спецификации аргументов."
 
-#: src/format-python-brace.c:543
-#: src/format-python.c:474
-#: src/format-ruby.c:898
-#: src/format-rust.c:449
-#: src/format-sh.c:283
+#: src/format-python-brace.c:543 src/format-python.c:474 src/format-ruby.c:898
+#: src/format-rust.c:449 src/format-sh.c:283
 #, c-format
 msgid ""
 "a format specification for argument '%s', as in '%s', doesn't exist in '%s'"
 msgstr "спецификация формата аргумента «%s» в «%s» не существует в «%s»"
 
-#: src/format-python.c:112
-#: src/format-ruby.c:129
+#: src/format-python.c:112 src/format-ruby.c:129
 msgid ""
 "The string refers to arguments both through argument names and through "
 "unnamed argument specifications."
@@ -894,8 +791,7 @@ msgstr ""
 "Строка ссылается на аргументы как по именам, так и по безымянным "
 "спецификациям аргументов."
 
-#: src/format-python.c:358
-#: src/format-ruby.c:782
+#: src/format-python.c:358 src/format-ruby.c:782
 #, c-format
 msgid "The string refers to the argument named '%s' in incompatible ways."
 msgstr "Строка ссылается на аргумент по имени «%s» несовместимым образом."
@@ -912,8 +808,7 @@ msgid ""
 "format specifications in '%s' expect a tuple, those in '%s' expect a mapping"
 msgstr "спецификация формата в «%s» ожидает кортеж, а в «%s» — отображение"
 
-#: src/format-python.c:513
-#: src/format-ruby.c:934
+#: src/format-python.c:513 src/format-ruby.c:934
 #, c-format
 msgid ""
 "format specifications in '%s' and '%s' for argument '%s' are not the same"
@@ -922,11 +817,11 @@ msgstr "в «%s» и «%s» не совпадают спецификации ф�
 #: src/format-qt.c:148
 #, c-format
 msgid ""
-"'%s' is a simple format string, but '%s' is not: it contains an 'L' flag or "
-"a double-digit argument number"
+"'%s' is a simple format string, but '%s' is not: it contains an 'L' flag or a "
+"double-digit argument number"
 msgstr ""
-"«%s» является простой строкой формата, но «%s» нет: в ней содержится флаг «L"
-"» или аргумент с числом из двух цифр"
+"«%s» является простой строкой формата, но «%s» нет: в ней содержится флаг «L» "
+"или аргумент с числом из двух цифр"
 
 #: src/format-ruby.c:132
 #, c-format
@@ -1040,8 +935,8 @@ msgstr ""
 #: src/format-smalltalk.c:89
 #, c-format
 msgid ""
-"The character that terminates the directive number %zu is not a digit "
-"between 1 and 9."
+"The character that terminates the directive number %zu is not a digit between "
+"1 and 9."
 msgstr ""
 "Символ, завершающий директиву номер %zu, не является цифрой из диапазона 1 … "
 "9."
@@ -1074,8 +969,7 @@ msgstr ""
 msgid "Try using the following, valid for %s:"
 msgstr "Попробуйте следующее, подходит для %s:"
 
-#: src/msgl-check.c:297
-#: src/msgl-check.c:321
+#: src/msgl-check.c:297 src/msgl-check.c:321
 msgid "message catalog has plural form translations"
 msgstr "каталог сообщений содержит переводы во множественном числе"
 
@@ -1095,8 +989,7 @@ msgstr "неверная значение nplurals"
 msgid "invalid plural expression"
 msgstr "неверное выражение во множественном числе"
 
-#: src/msgl-check.c:415
-#: src/msgl-check.c:431
+#: src/msgl-check.c:415 src/msgl-check.c:431
 #, c-format
 msgid "nplurals = %lu"
 msgstr "nplurals = %lu"
